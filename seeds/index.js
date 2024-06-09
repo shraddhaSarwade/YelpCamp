@@ -22,7 +22,7 @@ const seedDB = async () => {
     const price = Math.floor(Math.random() * 20) + 10;
     if (i % 10 === 0) {
       const camp = new Campground({
-        author: "66646189ef34490d2631e1d4", // YOUR USER ID
+        author: "66654118e7ffadbe94c90213", // YOUR USER ID
         location: `${cities[random1000].city}, ${cities[random1000].state}`,
         title: `${sample(descriptors)} ${sample(places)}`,
         description:
@@ -49,7 +49,7 @@ const seedDB = async () => {
       await camp.save();
     } else if (i % 10 === 1) {
       const camp = new Campground({
-        author: "66646189ef34490d2631e1d4", // YOUR USER ID
+        author: "66654118e7ffadbe94c90213", // YOUR USER ID
         location: `${cities[random1000].city}, ${cities[random1000].state}`,
         title: `${sample(descriptors)} ${sample(places)}`,
         description:
@@ -76,7 +76,7 @@ const seedDB = async () => {
       await camp.save();
     } else if (i % 10 === 2) {
       const camp = new Campground({
-        author: "66646189ef34490d2631e1d4", // YOUR USER ID
+        author: "66654118e7ffadbe94c90213", // YOUR USER ID
         location: `${cities[random1000].city}, ${cities[random1000].state}`,
         title: `${sample(descriptors)} ${sample(places)}`,
         description:
@@ -103,7 +103,7 @@ const seedDB = async () => {
       await camp.save();
     } else if (i % 10 === 3) {
       const camp = new Campground({
-        author: "66646189ef34490d2631e1d4", // YOUR USER ID
+        author: "66654118e7ffadbe94c90213", // YOUR USER ID
         location: `${cities[random1000].city}, ${cities[random1000].state}`,
         title: `${sample(descriptors)} ${sample(places)}`,
         description:
@@ -130,7 +130,7 @@ const seedDB = async () => {
       await camp.save();
     } else if (i % 10 === 4) {
       const camp = new Campground({
-        author: "66646189ef34490d2631e1d4", // YOUR USER ID
+        author: "66654118e7ffadbe94c90213", // YOUR USER ID
         location: `${cities[random1000].city}, ${cities[random1000].state}`,
         title: `${sample(descriptors)} ${sample(places)}`,
         description:
@@ -157,7 +157,7 @@ const seedDB = async () => {
       await camp.save();
     } else if (i % 10 === 5) {
       const camp = new Campground({
-        author: "66646189ef34490d2631e1d4", // YOUR USER ID
+        author: "66654118e7ffadbe94c90213", // YOUR USER ID
         location: `${cities[random1000].city}, ${cities[random1000].state}`,
         title: `${sample(descriptors)} ${sample(places)}`,
         description:
@@ -184,7 +184,7 @@ const seedDB = async () => {
       await camp.save();
     } else if (i % 10 === 6) {
       const camp = new Campground({
-        author: "66646189ef34490d2631e1d4", // YOUR USER ID
+        author: "66654118e7ffadbe94c90213", // YOUR USER ID
         location: `${cities[random1000].city}, ${cities[random1000].state}`,
         title: `${sample(descriptors)} ${sample(places)}`,
         description:
@@ -211,7 +211,7 @@ const seedDB = async () => {
       await camp.save();
     } else if (i % 410 === 7) {
       const camp = new Campground({
-        author: "66646189ef34490d2631e1d4", // YOUR USER ID
+        author: "66654118e7ffadbe94c90213", // YOUR USER ID
         location: `${cities[random1000].city}, ${cities[random1000].state}`,
         title: `${sample(descriptors)} ${sample(places)}`,
         description:
@@ -238,7 +238,7 @@ const seedDB = async () => {
       await camp.save();
     } else if (i % 10 === 8) {
       const camp = new Campground({
-        author: "66646189ef34490d2631e1d4", // YOUR USER ID
+        author: "66654118e7ffadbe94c90213", // YOUR USER ID
         location: `${cities[random1000].city}, ${cities[random1000].state}`,
         title: `${sample(descriptors)} ${sample(places)}`,
         description:
@@ -265,7 +265,7 @@ const seedDB = async () => {
       await camp.save();
     } else if (i % 10 === 9) {
       const camp = new Campground({
-        author: "66646189ef34490d2631e1d4", // YOUR USER ID
+        author: "66654118e7ffadbe94c90213", // YOUR USER ID
         location: `${cities[random1000].city}, ${cities[random1000].state}`,
         title: `${sample(descriptors)} ${sample(places)}`,
         description:
